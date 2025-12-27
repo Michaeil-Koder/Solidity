@@ -6,6 +6,27 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "age",
+						"type": "int256"
+					},
+					{
+						"internalType": "enum sample.GenderPerson",
+						"name": "gender",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "getName",
 				"outputs": [
@@ -60,11 +81,11 @@
 	},
 	"sources": {
 		"contracts/contract.sol": {
-			"keccak256": "0xfdda8dec4c9c3cf9c8f72b1dd12a7fbae3997c384751207618a683d4d5053474",
+			"keccak256": "0x6f7718d4fe516bf6b71d1245a2324cff3dfcbcab7cbc97b4fc4bf8d750b948fe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b381d87f88d4965751f4523c3c7c314ac5cfaf2b1d150ec6fb5f5834243f6e7b",
-				"dweb:/ipfs/Qma8S8iyUhWZNfEn7bGnnUSBJcqTMDjKXX3SkAb1VfRMP8"
+				"bzz-raw://3b9b0bca3f7d6aea8498a54e9e41e10b19729ebc13f48e7474a0d7d4e8395673",
+				"dweb:/ipfs/QmUYbNPAeRq62J57CrthQ66iHjBvBMSw1E7KKaRAsFtyPY"
 			]
 		}
 	},
